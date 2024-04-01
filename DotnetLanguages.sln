@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VisualBasicDotnet", "sources\VisualBasicDotnet\VisualBasicDotnet.vbproj", "{36B05597-3DB3-4F06-BC25-2AEDBE08E5D5}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "VisualBasicDotnet", "sources\VisualBasicDotnet\VisualBasicDotnet.vbproj", "{36B05597-3DB3-4F06-BC25-2AEDBE08E5D5}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsharpDotnet", "sources\FsharpDotnet\FsharpDotnet.fsproj", "{CD44D49B-9479-4E95-9423-A5CBA672F8D6}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FsharpDotnet", "sources\FsharpDotnet\FsharpDotnet.fsproj", "{CD44D49B-9479-4E95-9423-A5CBA672F8D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpDotnet", "sources\CsharpDotnet\CsharpDotnet.csproj", "{EE4A93E3-C894-40A3-9750-7B5F160669F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsharpDotnet", "sources\CsharpDotnet\CsharpDotnet.csproj", "{EE4A93E3-C894-40A3-9750-7B5F160669F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaiseManager", "sources\RaiseManager\RaiseManager.csproj", "{91AE88B6-1269-41DB-94CF-2ACABCBC7AD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaiseManager", "sources\RaiseManager\RaiseManager.csproj", "{91AE88B6-1269-41DB-94CF-2ACABCBC7AD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AF77169A-BE8F-4C28-9259-5CA709663371}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
