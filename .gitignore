@@ -396,3 +396,8 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+#Photoshop
+*.[Pp][Ss][Dd]
+*.[Pp][Dd][Dd]
+*.[Pp][Ss][Dd][Tt]
